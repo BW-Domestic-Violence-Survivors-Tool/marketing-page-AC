@@ -102,7 +102,6 @@ section {
 }
 body {
   line-height: 1;
-  font-family: 'Open Sans', sans-serif;
 }
 ol,
 ul {
@@ -129,35 +128,4 @@ table {
 }
 Html {
   font-size: 62.5%;
-}
-.header {
-  width: 100%;
-  height: 15vh;
-}
-.navBar {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-.navLink {
-  width: 40%;
-  display: flex;
-  justify-content: space-between;
-}
-.navLink__link {
-  font-size: 1.5rem;
-}
-.navLink__link:hover {
-  color: #898bbb;
-}
-.loginBtn {
-  width: 150px;
-  height: 35px;
-  border: 2px solid lightgrey;
-  background-color: #898bbb;
-}
-.navBar__img {
-  width: 250px;
 }
