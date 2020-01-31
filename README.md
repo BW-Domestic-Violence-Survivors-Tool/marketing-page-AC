@@ -65,3 +65,20 @@ Theme 3:
 #5a6eb4 - easterEgg
 #d47727 - pumpkin
 #8a411e - rust
+
+
+icons: 
+<!-- tiwtter -->
+<i class="fa fa-twitter" aria-hidden="true"></i> 
+
+<!-- facebook -->
+<i class="fa fa-facebook" aria-hidden="true"></i>
+
+<!-- email  -->
+<i class="fa fa-envelope" aria-hidden="true"></i>
+
+<!-- linkedin -->
+<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+<!-- instagram -->
+<i class="fa fa-instagram" aria-hidden="true"></i>
