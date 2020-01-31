@@ -65,6 +65,7 @@ Html{
 @easterEgg: #5a6eb4;
 @pumpkin: #d47727;
 @rust: #8a411e;
+@lightgrey: grey;
 
 
 .header {
@@ -123,5 +124,43 @@ Html{
 
 .navBar__img {
     width: 250px;
+}
+
+.intro{
+    border: 5px solid black;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__img{
+    width: 30%;
+    border: 5px solid black;
+}
+
+.intro__text{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+
+    .visionHeader{
+        font-size: 6.2rem;
+        font-weight: 600;
+        width: 50%;
+        color: @lightgrey;
+    }
+
+    .visionDesc{
+        width: 50%;
+        font-size: 2rem;
+        line-height: 130%;
+        color: @lightgrey;
+    }
 
 }
+
+
+
