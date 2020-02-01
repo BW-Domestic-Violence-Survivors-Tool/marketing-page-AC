@@ -182,7 +182,8 @@ Html {
 }
 .intro__img {
   width: 30%;
-  border: 5px solid black;
+  border: 2px solid grey;
+  background-color: grey;
 }
 .intro__text {
   display: flex;
@@ -204,16 +205,15 @@ Html {
   color: grey;
 }
 .mission {
-  border: 5px solid black;
   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #898bbb;
 }
 .mission__text-container {
   width: 70%;
   height: 50%;
-  border: 2px solid black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -222,14 +222,89 @@ Html {
   font-size: 4.5rem;
   font-weight: 600;
   width: 50%;
+  color: #FFFFFF;
 }
 .missionDesc__copy {
-  font-size: 1.6rem;
+  font-size: 2rem;
+  font-weight: 600;
   width: 50%;
+  color: #FFFFFF;
+  line-height: 130%;
 }
 .product {
-  border: 5px solid black;
-  height: 50vh;
+  height: 70vh;
   display: flex;
   justify-content: space-between;
+  border-bottom: 5px solid lightgrey;
+}
+.product__img {
+  width: 40%;
+  background-color: grey;
+}
+.product__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productCopy {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.productHeader {
+  font-size: 4rem;
+  color: grey;
+}
+.productCopy__header {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 130%;
+  color: grey;
+}
+.productCopy__description {
+  color: grey;
+  font-size: 1.6rem;
+  line-height: 140%;
+}
+.productHeader {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.featureIcons {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featureIcons__container {
+  width: 95%;
+  height: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+.plan,
+.secure,
+.options,
+.tools {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.plan__header,
+.secure__header,
+.options__header,
+.tools__header {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.plan__img,
+.secure__img,
+.options__img,
+.tools__img {
+  width: 45%;
 }
