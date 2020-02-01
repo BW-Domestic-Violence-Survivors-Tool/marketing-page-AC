@@ -375,29 +375,6 @@ Html {
 .survive__list li {
   margin-bottom: 3%;
 }
-.download {
-  height: 20vh;
-  background-color: #5a6eb4;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.download__header {
-  font-size: 5rem;
-  color: #FFFFFF;
-  font-weight: 700;
-}
-.download__iconContainer {
-  display: flex;
-  justify-content: space-between;
-  width: 40%;
-}
-.iconLogo {
-  width: 100px;
-  height: 100px;
-  background-color: #FFFFFF;
-  border-radius: 20%;
-}
 .footer {
   height: 25vh;
   background-color: #000000;
