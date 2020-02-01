@@ -274,14 +274,14 @@ Html {
   font-weight: 600;
 }
 .featureIcons {
-  height: 30vh;
+  height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .featureIcons__container {
   width: 95%;
-  height: 75%;
+  height: 85%;
   display: flex;
   justify-content: space-around;
 }
@@ -301,10 +301,76 @@ Html {
 .tools__header {
   font-size: 1.8rem;
   font-weight: 600;
+  color: #3751a3;
 }
 .plan__img,
 .secure__img,
 .options__img,
 .tools__img {
   width: 45%;
+}
+.joinUs {
+  height: 35vh;
+  width: 100%;
+  background-color: #898bbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/freeFromBoard.jpg");
+  background-position: center;
+  border: 2px solid lightgray;
+}
+.joinUs div {
+  width: 20%;
+  height: auto;
+  font-size: 6.2rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: center;
+  text-justify: center;
+}
+.userFlow {
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+}
+.assets,
+.findOptions,
+.survive {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.assets__header,
+.findOptions__header,
+.survive__header {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #5a6eb4;
+}
+.assets__copy,
+.findOptions__copy,
+.survive__copy,
+.assets__list,
+.findOptions__list,
+.survive__list {
+  font-size: 1.6rem;
+  line-height: 130%;
+}
+.assets__copy,
+.findOptions__copy,
+.survive__copy {
+  color: #898bbb;
+}
+.assets__list,
+.findOptions__list,
+.survive__list {
+  list-style-type: disc;
+}
+.assets__list li,
+.findOptions__list li,
+.survive__list li {
+  margin-bottom: 3%;
 }
