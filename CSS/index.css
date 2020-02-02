@@ -182,8 +182,9 @@ Html {
 }
 .intro__img {
   width: 30%;
-  border: 2px solid grey;
-  background-color: grey;
+  border-left: 2px solid grey;
+  background-image: url("../img/sharon-mccutcheon-VeBn2VPxqLA-unsplash.jpg");
+  background-position: center;
 }
 .intro__text {
   display: flex;
@@ -239,7 +240,9 @@ Html {
 }
 .product__img {
   width: 40%;
-  background-color: grey;
+  background-image: url("../img/christian-wiediger-rymh7EZPqRs-unsplash.jpg");
+  background-position: center;
+  border-right: 4px solid lightgrey;
 }
 .product__text {
   display: flex;
@@ -433,6 +436,9 @@ Html {
   .tools {
     width: 24%;
   }
+  .userFlow {
+    height: 80vh;
+  }
 }
 @media (max-width: 1400px) {
   .featureIcons {
@@ -470,7 +476,7 @@ Html {
     width: 100%;
   }
   .navLink {
-    height: 70%;
+    height: 85%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -480,6 +486,10 @@ Html {
     height: 50%;
     width: 100%;
     text-align: center;
+    padding-top: 3%;
+  }
+  .loginBtn {
+    margin-top: 2%;
   }
   .intro__text {
     display: flex;
@@ -496,10 +506,19 @@ Html {
     width: 100%;
   }
   .mission {
-    height: 25vh;
+    height: 45vh;
+  }
+  .mission__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
   }
   .mission__text-container {
     width: 90%;
+  }
+  .mission__text-container article {
+    margin-top: 4%;
   }
   .product__text {
     margin-top: 2%;
