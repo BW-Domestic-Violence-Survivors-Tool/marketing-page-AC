@@ -475,6 +475,38 @@ Html{
 
 
 @media (max-width: 1000px){
+    
+    .header{
+        height: 40vh;
+        border: none;
+    }
+
+    .navBar{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        
+    }
+
+    .navLink{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .navLink__link{
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    
     .intro__text{
         display: flex;
         flex-direction: column;
@@ -489,6 +521,7 @@ Html{
 
     .intro__text .visionHeader{
         text-align: center;
+        width: 100%;
     }
    
     .mission{
@@ -513,6 +546,10 @@ Html{
         display: none;
     }
 
+    // .joinUs__header{
+    //     width: 70%;
+    // }
+
     .userFlow{
         height:  180vh;
         width: 100%;
@@ -532,5 +569,37 @@ Html{
 
     .socialIcons{
         width:  60%;
+    }
+}
+
+@media (max-width: 600px){
+    .intro{
+        height: 70vh;
+    }
+    
+    .visionHeader{
+        width: 100%; 
+    }
+
+    .mission{
+        height: 45vh;
+    }
+
+    .mission__text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .plan__img, .secure__img, .options__img, .tools__img{
+        width: 65%;
+    }
+
+    .footer{
+        span{
+            text-align: center;
+            line-height: 150%;
+        }
     }
 }
