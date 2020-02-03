@@ -332,6 +332,7 @@ Html{
     font-size: 3rem;
     font-weight: 700;
     color:  @easterEgg;
+    text-justify: center;
 }
 
 .assets__copy, .findOptions__copy, .survive__copy, .assets__list, .findOptions__list, .survive__list{
@@ -623,4 +624,52 @@ Html{
             line-height: 150%;
         }
     }
+}
+
+
+// CSS LESS for team member page
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto 3% auto;
+}
+
+
+.contributor{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.contributor__img{
+    border-radius: 15%;
+    border: 3px solid @lightgrey;
+    width: 65%;
+}
+
+.contributor__name{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.contributor__title{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.contributor__link{
+    font-size: 1.6rem;
+
+    &:hover{
+        color: @easterEgg;
+    }
+}
+
+.contributor__title, .contributor__link, .contributor__name{
+    margin-top: 1.5%;
 }
