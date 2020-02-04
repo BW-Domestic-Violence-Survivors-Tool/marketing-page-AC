@@ -93,14 +93,17 @@ Html{
 }
 
 .navLink__link{
-    font-size: 1.5rem;
-
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #000000;
     &:hover{
         color: @pastelPurple;
     }
 }
 
-
+.loginLink{
+    text-decoration: none;
+}
 
 .loginBtn{
     width: 150px;
@@ -209,6 +212,8 @@ Html{
     width: 40%;
     background-image: url("../img/christian-wiediger-rymh7EZPqRs-unsplash.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-right: 4px solid lightgrey;
     
 }
@@ -297,6 +302,8 @@ Html{
     align-items: center;
     background-image: url("../img/freeFromBoard.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 2px solid lightgray;
     div{
         width: 20%;
@@ -459,6 +466,12 @@ Html{
 
 @media (max-width: 1400px){
     
+    .navLink__link{
+
+        font-size: 1.5rem;
+    }
+
+
     .featureIcons{
         height: 70vh;
     }
@@ -505,6 +518,7 @@ Html{
         flex-direction: column;
         align-items: center;
         
+        
     }
 
     .navLink__link{
@@ -512,6 +526,7 @@ Html{
         width: 100%;
         text-align: center;
         padding-top: 3%;
+        font-size: 2rem;
     }
     
     .loginBtn{
@@ -632,13 +647,14 @@ Html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     margin: 0 auto 3% auto;
 }
 
 
 .contributor{
-    width: 30%;
+    width: 32%;
+    height: 55%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -655,16 +671,19 @@ Html{
 .contributor__name{
     font-size: 2.4rem;
     font-weight: 600;
+    margin-top: 3%;
 }
 
 .contributor__title{
     font-size: 1.9rem;
     font-weight: 600;
+    color:  @rust
 }
 
 .contributor__link{
     font-size: 1.6rem;
-
+    text-decoration: none;
+    color: black;
     &:hover{
         color: @easterEgg;
     }
@@ -672,4 +691,19 @@ Html{
 
 .contributor__title, .contributor__link, .contributor__name{
     margin-top: 1.5%;
+}
+
+
+@media (max-width: 1000px){
+    .team{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contributor{
+        width: 80%;   
+    }
 }
