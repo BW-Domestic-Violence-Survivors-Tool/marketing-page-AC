@@ -645,3 +645,70 @@ Html {
     width: 80%;
   }
 }
+.policy {
+  width: 80%;
+  margin: 2.2% auto;
+}
+.policyIntro__header {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 140%;
+}
+.policyIntro__copy {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: center;
+  color: grey;
+}
+.definitions {
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.definitions__header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+.definitions__term {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2%;
+  color: #3751a3;
+}
+.definitions__copy {
+  font-size: 1.6rem;
+  font-size: 400;
+  line-height: 140%;
+  color: grey;
+}
+.dataUse__header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 140%;
+  margin-top: 1%;
+}
+.dataUse__subheader {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 140%;
+  margin-top: 2%;
+}
+.dataUse__copy {
+  font-size: 1.6rem;
+  line-height: 140%;
+  font-weight: 400;
+}
+.dataUse__list {
+  list-style-type: disc;
+  font-size: 1.6rem;
+  margin-left: 3%;
+  margin-top: 1%;
+  color: #5a6eb4;
+}
+.dataUse__list li {
+  margin-bottom: 1%;
+  line-height: 140%;
+}
