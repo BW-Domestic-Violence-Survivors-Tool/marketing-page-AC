@@ -413,6 +413,9 @@ Html {
   font-size: 4rem;
   color: #FFFFFF;
 }
+.socialIcons__img:hover {
+  color: #898bbb;
+}
 @media (max-width: 1500px) {
   .intro__img {
     display: none;
@@ -711,4 +714,23 @@ Html {
 .dataUse__list li {
   margin-bottom: 1%;
   line-height: 140%;
+}
+.TOS__header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 140%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  color: #5a6eb4;
+  text-align: center;
+}
+.TOS__copy {
+  font-size: 1.6rem;
+  line-height: 140%;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+.TOS {
+  width: 80%;
+  margin: 3% auto;
 }
