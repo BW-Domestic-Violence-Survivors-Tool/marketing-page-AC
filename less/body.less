@@ -256,7 +256,7 @@
 //     border-radius: 20%;
 // }
 
-team {
+.team {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -410,3 +410,237 @@ team {
     width: 80%;
     margin: 3% auto;
 }
+
+@media (max-width: 1500px){
+    .intro__img{
+        display: none;
+    }
+
+    .intro__text{
+        width: 80%;
+    }
+
+    .mission__text-container{
+        width: 80%;
+    }
+
+    .missionDesc__copy{
+        width: 60%
+    }
+
+    .product{
+        height: 100vh;
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .product__img{
+        width: 100%;
+        height: 40%;
+    }
+
+    .productCopy__group{
+        margin-top: 1.25%;
+    }
+
+    .plan, .secure, .options, .tools{
+        width: 24%;
+    }
+
+    .userFlow{
+        height: 80vh;
+    }
+}
+
+@media (max-width: 1400px){
+    
+    .navLink__link{
+
+        font-size: 1.5rem;
+    }
+
+
+    .featureIcons{
+        height: 70vh;
+    }
+    
+    .featureIcons__container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+        
+    }
+    .plan, .secure, .options, .tools{
+        width: 50%;
+        margin-top: 1%;
+
+    }
+
+    .plan__img, .secure__img, .options__img, .tools__img{
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 1000px){
+    .team{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contributor{
+        width: 80%;   
+    }
+}
+
+@media (max-width: 1000px){
+    
+    .header{
+        height: 40vh;
+        border: none;
+    }
+
+    .navBar{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        
+    }
+
+    .navLink{
+        height: 85%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+    .navLink__link{
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        padding-top: 3%;
+        font-size: 2rem;
+    }
+    
+    .loginBtn{
+        margin-top: 2%;
+    }
+    
+    .intro__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;        
+    }
+
+    .intro__text .visionDesc{
+        width: 80%;
+        text-align: center;
+    }
+
+    .intro__text .visionHeader{
+        text-align: center;
+        width: 100%;
+    }
+   
+    .mission{
+        height: 45vh;
+    }
+
+    .mission__text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .mission__text-container{
+        width: 90%;
+
+        article{
+            margin-top: 4%;
+        }
+    }
+
+
+    .product__text{
+        margin-top: 2%;
+        height: 100%;
+    }
+
+    .featureIcons__container{
+        width: 80%;
+    }
+
+    .product__img{
+        display: none;
+    }
+
+    // .joinUs__header{
+    //     width: 70%;
+    // }
+
+    .userFlow{
+        height:  180vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .assets, .findOptions, .survive{
+        width: 80%;
+        height: 30%;
+    }
+
+
+
+    .socialIcons{
+        width:  60%;
+    }
+}
+
+@media (max-width: 600px){
+    .intro{
+        height: 70vh;
+    }
+    
+    .visionHeader{
+        width: 100%; 
+    }
+
+    .mission{
+        height: 45vh;
+    }
+
+    .mission__text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .plan__img, .secure__img, .options__img, .tools__img{
+        width: 65%;
+    }
+
+    .footer{
+        span{
+            text-align: center;
+            line-height: 150%;
+        }
+    }
+}
+

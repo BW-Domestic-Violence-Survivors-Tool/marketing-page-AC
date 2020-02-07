@@ -168,6 +168,7 @@ Html {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .loginBtn:hover {
   background-color: #5a6eb4;
@@ -390,7 +391,7 @@ Html {
 .survive__list li {
   margin-bottom: 3%;
 }
-team {
+.team {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -519,32 +520,6 @@ team {
 .TOS {
   width: 80%;
   margin: 3% auto;
-}
-.footer {
-  height: 25vh;
-  background-color: #000000;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.footer span,
-.footer address {
-  color: #FFFFFF;
-  font-size: 1.6rem;
-  font-weight: 400;
-}
-.socialIcons {
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-}
-.socialIcons__img i {
-  font-size: 4rem;
-  color: #FFFFFF;
-}
-.socialIcons__img:hover {
-  color: #898bbb;
 }
 @media (max-width: 1500px) {
   .intro__img {
@@ -733,4 +708,30 @@ team {
     text-align: center;
     line-height: 150%;
   }
+}
+.footer {
+  height: 25vh;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer span,
+.footer address {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.socialIcons {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.socialIcons__img i {
+  font-size: 4rem;
+  color: #FFFFFF;
+}
+.socialIcons__img:hover {
+  color: #898bbb;
 }
